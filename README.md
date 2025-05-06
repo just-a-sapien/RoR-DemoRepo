@@ -1,24 +1,10 @@
-# README
+# RoR-DemoRepo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo Rails app for testing an AI-powered PR review bot.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+bundle install
+rails db:create db:migrate
+rails server
