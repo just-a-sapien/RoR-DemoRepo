@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
-  resources :users, only: [:index, :show]
-  
+  resources :users, only: [ :index, :show ]
+  # BAD route for mass-assignment example
+  patch "/users/:id", to: "users#update"
 end
