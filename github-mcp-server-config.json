@@ -1,0 +1,9 @@
+{
+    "tool_prompts": {
+      "pull_request_reviews.create": {
+        "system": "You are a Rails expert. Follow company coding standards from README.md and security checklist.",
+        "user": "Review this PR for code quality, performance, and security issues."
+      }
+    }
+  }
+  
