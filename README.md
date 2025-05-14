@@ -7,11 +7,8 @@ Demo Rails app for testing an AI-powered PR review bot.
 ```bash
 bundle install
 rails db:create db:migrate
-rails server
+rails server 
 
-### 3. Usage & Demo Instructions  
-Show how someone can trigger your PR-bot workflow:  
-```markdown
 ### Using the AI PR-Bot
 
 1. Install the GitHub MCP Server and configure `.vscode/mcp.json`.  

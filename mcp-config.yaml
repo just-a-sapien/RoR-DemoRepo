@@ -1,0 +1,9 @@
+# mcp-config.yaml
+toolsets:
+  repos: true
+  issues: true
+  pull_requests: true
+servers:
+  - name: github
+    token_env_var: GITHUB_PERSONAL_ACCESS_TOKEN
+
